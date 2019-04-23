@@ -45,9 +45,7 @@ function minify(
 inputCode,
 inputMap,
 options)
-{
-  console.log("MINIFYING!")
-  
+{ 
   const result = uglify.minify(inputCode, {
     mangle: {
       toplevel: false,
